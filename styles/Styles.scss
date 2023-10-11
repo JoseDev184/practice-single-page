@@ -1,3 +1,19 @@
-h1 {
-  color: red($color: #c21616);
+@import "navbar";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: kumbh "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background: $gold;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc ((100vw - 1200px) /2);
+  z-index: 10;
+  position: relative;
 }
