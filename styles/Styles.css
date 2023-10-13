@@ -1,9 +1,44 @@
+.navbar_logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  background-color: pink;
+  font-size: 25px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc(100vw - 1200px);
+  z-index: 10;
+  position: relative;
+}
+
+.navbar_logo {
+  color: rgb(228, 198, 29);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-left: 24px;
+}
+
+.navbar__bars {
+  opacity: 0;
+}
+@media screen and (max-width: 768px) {
+  .navbar__bars {
+    color: rgb(228, 198, 29);
+    opacity: 1;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 2 rem;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: kumbh "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-/*# sourceMappingURL=Styles.css.map */
+  font-family: "Courier New", Courier, monospace;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,40 @@
+.nav__menu, .navbar_logo {
+  display: flex;
+  align-items: center;
+}
 
-.navbar__logo {
-  color: rgb(238, 207, 34);
+.navbar {
+  background-color: pink;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc(100vw - 1200px);
+  z-index: 10;
+  position: relative;
+}
+
+.navbar_logo {
+  color: rgb(228, 198, 29);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 24px;
+}
+
+.navbar__bars {
+  opacity: 0;
+}
+@media screen and (max-width: 768px) {
+  .navbar__bars {
+    color: rgb(228, 198, 29);
+    opacity: 1;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    font-size: 2 rem;
+  }
+}
+
+.nav__menu {
+  list-style: none;
 }/*# sourceMappingURL=navbar.css.map */
