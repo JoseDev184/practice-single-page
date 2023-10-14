@@ -15,7 +15,7 @@
   z-index: 10;
   position: relative;
 }
-.navbar_logo {
+&__logo {
   color: $gold;
   cursor: pointer;
   text-decoration: none;
@@ -24,7 +24,7 @@
   @extend %align-center;
 }
 
-.navbar__bars {
+&__bars {
   opacity: 0;
 
   @include tablet {
@@ -37,7 +37,7 @@
   }
 }
 
-.nav__menu {
+&__menu {
   @extend %align-center;
   list-style: none;
   text-align: center;
@@ -48,14 +48,14 @@
   display: none;
 }
 
-.nav__menu--links {
+&__menu--links {
   color: $blue;
   @extend %align-center;
   text-decoration: none;
   padding: 0 1 rem;
 }
 
-.nav__menu--links:hover {
+&:hover {
   color: $gold;
   transition: all 0.3s ease;
 }
@@ -70,6 +70,21 @@
   color: $light;
 
   :hover {
+    color: $gold;
+    transition: all 0.3s ease;
+  }
+}
+
+#button {
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  border: 4px;
+  background: $gold;
+  margin-left: 16px;
+  color: $blue;
+
+  hover {
     color: $gold;
     transition: all 0.3s ease;
   }

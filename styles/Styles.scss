@@ -6,3 +6,65 @@
   padding: 0;
   font-family: "Courier New", Courier, monospace;
 }
+
+//hero section css
+.hero {
+  background-color: $blue;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    padding-right: 24px;
+    padding-left: 24px;
+
+    @include tablet {
+      grid-template-columns: 1fr;
+      height: 100%;
+    }
+
+    &--left {
+      width: 10%;
+      line-height: 1.2;
+
+      @include tablet {
+        padding: 5rm 0;
+      }
+    }
+
+    &--left h1 {
+      font-size: 4rem;
+      color: $gold;
+
+      @include mobile;
+      font-size: 1.5rem;
+    }
+    &--left h2 {
+      font-size: 4rem;
+      color: $gold;
+
+      @include mobile;
+      font-size: 1.5rem;
+    }
+  }
+
+  &--btn {
+    font-size: 1rem;
+    background-color: $blue;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: $blue;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3;
+    outline: none;
+  }
+}
