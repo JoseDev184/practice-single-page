@@ -33,3 +33,6 @@ I going to keep practice and anpthers project with the same tegnologies above an
 
 netninja next target!
 making progress with sass!!
+ 
+I been working with net ninja Sass awesome job so far working cose about sass is loke have superpower on css im agreed on that
+10/21/2023
