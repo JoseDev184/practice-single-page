@@ -31,7 +31,7 @@ but I have to name its in a separare page
 end of this project, I started to refresh my memorie about coding HTML CSS and introducing some ideas consent of SASS,
 I going to keep practice and anpthers project with the same tegnologies above and adding BOOSTRAPS!
 
-netninja next target!
+netninja next target!!!
 making progress with sass!!
  
 I been working with net ninja Sass awesome job so far working cose about sass is loke have superpower on css im agreed on that
