@@ -35,4 +35,4 @@ netninja next target!!!
 making progress with sass!!
  
 I been working with net ninja Sass awesome job so far working cose about sass is loke have superpower on css im agreed on that
-10/21/2023
+10/21/2022
